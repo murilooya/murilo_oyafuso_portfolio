@@ -1,0 +1,35 @@
+.greeting {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.contact-text a {
+    color: #ff4b5c;
+    text-decoration: none;
+}
+
+.contact-text a:hover {
+    text-decoration: underline;
+}
+
+.title-header {
+    color: #B03030; /* Matches the red color for "Skills" */
+    text-transform: uppercase;
+    font-weight: bold;
+}
