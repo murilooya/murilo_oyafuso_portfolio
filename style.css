@@ -33,3 +33,9 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.footer-link {
+    color: #B03030;
+    text-decoration: none;
+    font-weight: bold;
+}
