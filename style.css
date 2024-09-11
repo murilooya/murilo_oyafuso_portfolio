@@ -1,5 +1,5 @@
 .greeting {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
@@ -47,4 +47,8 @@
     color: #B03030;
     text-decoration: none;
     font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
