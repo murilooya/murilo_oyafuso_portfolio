@@ -1,3 +1,9 @@
+:root {
+    --primary-color: rgb(30, 148, 184);
+    --secondary-color: rgb(116, 185, 185);
+    --thirdy-color: rgb(185, 129, 218);
+}
+
 .greeting {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -30,7 +36,7 @@
 }
 
 .contact-text a {
-    color: #ff4b5c;
+    color: var(--thirdy-color);
     text-decoration: none;
 }
 
@@ -39,13 +45,13 @@
 }
 
 .title-header {
-    color: #B03030; /* Matches the red color for "Skills" */
+    color: var(--primary-color); /* Matches the red color for "Skills" */
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .links {
-    color: #B03030;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -54,7 +60,7 @@
 }
 
 .footer-link {
-    color: #B03030;
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
 }
