@@ -8,6 +8,16 @@
     line-height: 1.5;
 }
 
+.cat_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #000;
+    position: fixed;
+    display: none;
+    pointer-events: none;
+}
+
 .name {
     font-weight: bold;
 }
