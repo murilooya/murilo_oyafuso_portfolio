@@ -14,7 +14,6 @@ function showImage(elmt) {
   if (!attached) {
     attached = true;
     image.style.display = "block";
-    console.log("HHHHH")
     document.addEventListener("pointermove", function(event) {
       followMouse(image, event)
     });
